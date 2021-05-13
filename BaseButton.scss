@@ -1,0 +1,29 @@
+@use 'Colors';
+
+%baseButton{
+    color: Colors.$blue;
+    border-style: solid;
+    border-radius: 20%;
+    border-color: Colors.$black;
+}
+
+.smallButton{
+    @extend %baseButton; 
+    width: 20%;
+    height: 10%;
+}
+
+.mediumButton{
+    @extend %baseButton;
+    width:50%;
+    height: 50%;
+}
+.largeButton{
+    @extend %baseButton;
+    width:70%;
+    height: 70%;
+}
+
+
+
+

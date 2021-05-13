@@ -1,0 +1,23 @@
+.largeButton, .mediumButton, .smallButton {
+  color: blue;
+  border-style: solid;
+  border-radius: 20%;
+  border-color: black;
+}
+
+.smallButton {
+  width: 20%;
+  height: 10%;
+}
+
+.mediumButton {
+  width: 50%;
+  height: 50%;
+}
+
+.largeButton {
+  width: 70%;
+  height: 70%;
+}
+
+/*# sourceMappingURL=BaseButton.css.map */

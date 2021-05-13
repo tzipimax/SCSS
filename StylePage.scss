@@ -1,0 +1,11 @@
+@use 'Colors';
+ul{
+    h6{
+        color: Colors.$yellow;
+        font-weight: bold;
+    }
+    li{
+        color: Colors.$pink;
+        list-style: none;
+    }
+}
